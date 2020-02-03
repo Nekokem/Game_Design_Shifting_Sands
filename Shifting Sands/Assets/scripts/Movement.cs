@@ -5,11 +5,11 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class Movement : MonoBehaviour
 {
+    public CharacterController controller;
     private Vector3 position;
-    private CharacterController controller;
 
     public int speed = 10;
-    public float gravity = 10.0f;
+    private float gravity = 10.0f;
     public int jumpSpeed = 20;
     
     void Start()
@@ -21,7 +21,7 @@ public class Movement : MonoBehaviour
     {
         position.x = speed * Input.GetAxis("Horizontal");
         position.z = speed * Input.GetAxis("Vertical");
-        position.z -= gravity;
+        position.y -= gravity;
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
