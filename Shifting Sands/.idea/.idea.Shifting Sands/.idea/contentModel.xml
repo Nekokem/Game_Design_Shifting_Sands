@@ -6,7 +6,19 @@
       <e p="Assets" t="Include">
         <e p="scripts" t="Include">
           <e p="AIWithNavMesh.cs" t="Include" />
+          <e p="CharacterCombat.cs" t="Include" />
+          <e p="CharacterStats.cs" t="Include" />
+          <e p="EmenyHealthBar.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
+          <e p="EnemyController.cs" t="Include" />
+          <e p="EnemyStats.cs" t="Include" />
+          <e p="HealthBar.cs" t="Include" />
+          <e p="Interactable.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+          <e p="PlayerManager.cs" t="Include" />
+          <e p="PlayerStats.cs" t="Include" />
+          <e p="Stats.cs" t="Include" />
           <e p="TriggerEvent.cs" t="Include" />
           <e p="UseMagic.cs" t="Include" />
         </e>
