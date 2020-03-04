@@ -2,23 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MatchIDBehavior : BehaviorID
+public class MatchIDBehavior : IDBehavior
 {
     public WorkSystemManager workSystemManagerObj;
-    private NameId otherIdObj;
+    private NameID otherIdObj;
     
     private void OnTriggerEnter(Collider other)
     {
-        otherIdObj = other.GetComponent<BehaviorID>().nameIDObj;
+        otherIdObj = other.GetComponent<IDBehavior>().nameIDObj;
         CheckId();
     }
 
     private void CheckId()
     {
-        foreach (var obj in workSystemManagerObj.workIdList)
+        foreach (var obj in workSystemManagerObj.workIDList)
         {
             
-            if (otherIdObj == obj.nameIdObj)
+            if (otherIdObj == obj.nameIDObj)
             {
                 obj.workSystemObj.Work();
             }
