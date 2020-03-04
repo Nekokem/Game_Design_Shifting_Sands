@@ -5,7 +5,17 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="New Game Mechanics" t="Include">
-          <e p="MatchIdBehavior.cs" t="Include" />
+          <e p="Dialogue" t="Include">
+            <e p="StringListData.cs" t="Include" />
+            <e p="TextBehavior.cs" t="Include" />
+          </e>
+          <e p="Match ID System" t="Include">
+            <e p="IDBehavior.cs" t="Include" />
+            <e p="MatchIdBehavior.cs" t="Include" />
+            <e p="NameID.cs" t="Include" />
+            <e p="WorkSystem.cs" t="Include" />
+            <e p="WorkSystemManager.cs" t="Include" />
+          </e>
         </e>
         <e p="scripts" t="Include">
           <e p="AIWithNavMesh.cs" t="Include" />
