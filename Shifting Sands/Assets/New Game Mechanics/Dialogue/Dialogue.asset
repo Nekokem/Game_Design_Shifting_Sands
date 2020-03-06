@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69427c3003c984a6e916674b5b5d305e, type: 3}
   m_Name: Dialogue
   m_EditorClassIdentifier: 
-  stringListObj: []
-  currentLineNumber: 0
+  stringListObj:
+  - I have water magic!
+  - I want to teach you!
+  currentLineNumber: 1
