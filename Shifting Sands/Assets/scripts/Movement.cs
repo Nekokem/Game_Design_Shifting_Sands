@@ -30,5 +30,15 @@ public class Movement : MonoBehaviour
 
         controller.Move(position * Time.deltaTime);
     }
-    
+
+    public void SlowSpeed()
+    {
+        speed = 10;
+    }
+
+    public void ReturnSpeed()
+    {
+        speed = 150;
+    }
+
 }
