@@ -6,8 +6,13 @@
       <e p="Assets" t="Include">
         <e p="New Game Mechanics" t="Include">
           <e p="Dialogue" t="Include">
+            <e p="IntData.cs" t="Include" />
             <e p="StringListData.cs" t="Include" />
             <e p="TextBehavior.cs" t="Include" />
+          </e>
+          <e p="Game Actions" t="Include">
+            <e p="GameAction.cs" t="Include" />
+            <e p="GameActionHandler.cs" t="Include" />
           </e>
           <e p="Match ID System" t="Include">
             <e p="IDBehavior.cs" t="Include" />
