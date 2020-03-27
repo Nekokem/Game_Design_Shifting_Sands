@@ -33,13 +33,13 @@ public class Movement : MonoBehaviour
 
     public void SlowSpeed()
     {
-        speed = 10;
+        speed = 50;
         jumpSpeed = 10;
     }
 
     public void ReturnSpeed()
     {
-        speed = 150;
+        speed = 100;
         jumpSpeed = 50;
     }
 
