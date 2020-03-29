@@ -11,6 +11,7 @@
             <e p="StringListData.cs" t="Include" />
             <e p="TextBehavior.cs" t="Include" />
           </e>
+          <e p="Enemy attack.cs" t="Include" />
           <e p="Game Actions" t="Include">
             <e p="GameAction.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
