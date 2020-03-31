@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
-    public GameObject Hitbox;
+    public GameObject DamageTrigger;
     public float Timer;
     public bool AttackingIsRunning = false;
 
@@ -21,13 +21,13 @@ public class EnemyAttack : MonoBehaviour
         AttackingIsRunning = true;
 
         //turn on hitbox
-        Hitbox.SetActive(true);
+        DamageTrigger.SetActive(true);
         
         //Set timer
         yield return new WaitForSeconds(Timer); 
 
         //turn off hitbox
-        Hitbox.SetActive(false);
+        DamageTrigger.SetActive(false);
 
         AttackingIsRunning = false;
     }
