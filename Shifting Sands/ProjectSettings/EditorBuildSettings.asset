@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/OptionScreen.unity
+    guid: 80cf0be6b74174135aa8eb5603f1c7c3
+  - enabled: 1
     path: Assets/Scenes/Full map.unity
     guid: 98eb299e55ff94040bda02f2be0d13b7
   m_configObjects: {}
