@@ -14,6 +14,8 @@
             <e p="TextBehavior.cs" t="Include" />
           </e>
           <e p="Enemyattack.cs" t="Include" />
+          <e p="EnemyHealth.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
           <e p="Game Actions" t="Include">
             <e p="GameAction.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
@@ -26,9 +28,11 @@
             <e p="WorkSystem.cs" t="Include" />
             <e p="WorkSystemManager.cs" t="Include" />
           </e>
-          <e p="MouseDownEvent.cs" t="Include" />
+          <e p="MouseDownEvents.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="OnTriggerStaff.cs" t="Include" />
           <e p="PlayerAttack.cs" t="Include" />
+          <e p="PlayerDamageTrigger.cs" t="Include" />
           <e p="SceneManager.cs" t="Include" />
         </e>
         <e p="scripts" t="Include">
