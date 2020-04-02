@@ -33,7 +33,7 @@
           <e p="OnTriggerStaff.cs" t="Include" />
           <e p="PlayerAttack.cs" t="Include" />
           <e p="PlayerDamageTrigger.cs" t="Include" />
-          <e p="SceneManager.cs" t="Include" />
+          <e p="SceneChanger.cs" t="Include" />
         </e>
         <e p="scripts" t="Include">
           <e p="AIWithNavMesh.cs" t="Include" />
