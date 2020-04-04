@@ -14,4 +14,9 @@ public class WorkSystemManager : ScriptableObject
    }
 
    public List<possibleMatches> workIDList;
+
+   public void Collect()
+   {
+      
+   }
 }

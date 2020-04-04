@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using JetBrains.Annotations;
+using UnityEngine;
 
 public class IDBehavior : MonoBehaviour
 {
-    public NameID nameIDObj;
+    [CanBeNull] public NameID nameIdObj;
 }
