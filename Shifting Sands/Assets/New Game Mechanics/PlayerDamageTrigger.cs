@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class PlayerDamageTrigger : MonoBehaviour
 {
-    public int PlayerAttackDamage;
+    public int playerAttackDamage;
 
     public void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Worked???");
-        /*if (other.GetComponent<EnemyHealth>())
+       
+        if (other.GetComponent<EnemyHealth>())
         {
-            other.GetComponent<EnemyHealth>().MinusHealth(AttackDamage);
-        }*/
+            other.GetComponent<EnemyHealth>().MinusHealth(playerAttackDamage);
+        }
     }
 }
