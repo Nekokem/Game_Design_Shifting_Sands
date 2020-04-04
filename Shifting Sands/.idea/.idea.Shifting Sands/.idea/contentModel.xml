@@ -21,6 +21,7 @@
             <e p="GameActionHandler.cs" t="Include" />
           </e>
           <e p="Health.cs" t="Include" />
+          <e p="HealthBarManager.cs" t="Include" />
           <e p="Match ID System" t="Include">
             <e p="IDBehavior.cs" t="Include" />
             <e p="MatchIdBehavior.cs" t="Include" />
@@ -33,6 +34,7 @@
           <e p="OnTriggerStaff.cs" t="Include" />
           <e p="PlayerAttack.cs" t="Include" />
           <e p="PlayerDamageTrigger.cs" t="Include" />
+          <e p="QuitManager.cs" t="Include" />
           <e p="SceneChanger.cs" t="Include" />
         </e>
         <e p="scripts" t="Include">

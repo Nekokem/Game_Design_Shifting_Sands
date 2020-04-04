@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
-    public GameObject hitbox;
+    public GameObject playerDamageTrigger;
     public float Timer;
     public bool AttackingIsRunning = false;
     public int AttackingHealth;
 
-    void Update()
+    public void Update()
     {
+     
         //get input
         if(Input.GetMouseButtonDown(0))
         {
             if(AttackingIsRunning == false){
-                GetComponent<Health>().SubtractHealth(AttackingHealth);
+                GetComponent<EnemyHealth>().MinusHealth(AttackingHealth);
                 StartCoroutine(Attacking());
             }
         }      
@@ -26,13 +27,13 @@ public class Attack : MonoBehaviour
         AttackingIsRunning = true;
 
         //turn on hitbox
-        hitbox.SetActive(true);
+        playerDamageTrigger.SetActive(true);
         
         //Set timer
         yield return new WaitForSeconds(Timer); 
 
         //turn off hitbox
-        hitbox.SetActive(false);
+        playerDamageTrigger.SetActive(false);
 
         AttackingIsRunning = false;
     }
