@@ -14,7 +14,7 @@ public class EnemyHealth : MonoBehaviour
         healthCollection -= 10;
         TakeDamageEvent.Invoke();
 
-        if (healthCollection == 0)
+        if (healthCollection <= 0)
         {
             Died();
         }
