@@ -7,6 +7,10 @@
         <e p="New Game Mechanics" t="Include">
           <e p="Attack.cs" t="Include" />
           <e p="Camrea.cs" t="Include" />
+          <e p="Collection" t="Include">
+            <e p="Inentory.cs" t="Include" />
+            <e p="PickUp.cs" t="Include" />
+          </e>
           <e p="DamageTrigger.cs" t="Include" />
           <e p="Dialogue" t="Include">
             <e p="IntData.cs" t="Include" />
