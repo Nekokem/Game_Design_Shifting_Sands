@@ -6,11 +6,11 @@ using UnityEngine;
 
 public class Stats 
 {
-    [SerializeField] private int baseValue;
+    /*[SerializeField] private int baseValue;
 
     public int GetValue()
     {
         int finalValue = baseValue;
         return finalValue;
-    }
+    }*/
 }
