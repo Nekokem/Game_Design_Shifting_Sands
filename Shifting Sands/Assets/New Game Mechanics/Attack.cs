@@ -12,7 +12,7 @@ public class Attack : MonoBehaviour
     {
      
         //get input
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(1))
         {
             if(AttackingIsRunning == false){
                 StartCoroutine(Attacking());
