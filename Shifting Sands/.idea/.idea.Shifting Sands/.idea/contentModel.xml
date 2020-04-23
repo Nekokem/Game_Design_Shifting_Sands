@@ -26,6 +26,8 @@
           </e>
           <e p="Health.cs" t="Include" />
           <e p="HealthBarManager.cs" t="Include" />
+          <e p="Interact.cs" t="Include" />
+          <e p="InteractEvent.cs" t="Include" />
           <e p="MagicAttack.cs" t="Include" />
           <e p="Match ID System" t="Include">
             <e p="IDBehavior.cs" t="Include" />
