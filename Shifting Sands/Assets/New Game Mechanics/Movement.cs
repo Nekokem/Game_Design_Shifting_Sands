@@ -20,7 +20,12 @@ public class Movement : MonoBehaviour
     void Update()
     {
         position.x = speed * Input.GetAxis("Horizontal");
+        position.y = 0;
         position.z = speed * Input.GetAxis("Vertical");
+        if (position.x != 0 || position.z != 0 )
+        {
+            transform.rotation = Quaternion.LookRotation(position);
+        }
         position.y -= gravity;
 
         if (Input.GetKeyDown(KeyCode.Space))

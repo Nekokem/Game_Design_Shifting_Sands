@@ -5,19 +5,23 @@ using UnityEngine;
 public class MagicAttack : MonoBehaviour
 {
     public GameObject playerDamageTrigger;
-    //public spellType spell;
+    public spellType spell;
     public GameObject fireBall;
+    public GameObject bigFireBall;
+    public GameObject waterBall;
+    public GameObject bigWaterBall;
     public GameObject firePoint;
     public float Timer;
     public bool AttackingIsRunning = false;
     
-    /*public enum spellType
+    public enum spellType
     {
+            WEAKWATER,
+            STRONGWATER,
             WEAKFIRE,
             STRONGFIRE,
-            WEAKWATER,
-            STRONGWATER
-    }*/
+            CYCLE
+    }
 
     public void Update()
     {
@@ -28,14 +32,41 @@ public class MagicAttack : MonoBehaviour
             if(AttackingIsRunning == false){
                 StartCoroutine(Attacking());
             }
-        }      
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            spell++;
+            if (spell == spellType.CYCLE)
+            {
+                spell = 0;
+            }
+        }
     }
 
     IEnumerator Attacking()
     {
         AttackingIsRunning = true;
 
-        Instantiate(fireBall, firePoint.transform.position, gameObject.transform.rotation);
+        GameObject objToSpawn = fireBall;
+
+        switch (spell)
+        {
+            case spellType.WEAKFIRE:
+                objToSpawn = fireBall;
+                break;
+            case spellType.WEAKWATER:
+                objToSpawn = waterBall;
+                break;
+            case spellType.STRONGFIRE:
+                objToSpawn = bigFireBall;
+                break;
+            case spellType.STRONGWATER:
+                objToSpawn = bigWaterBall;
+                break;
+        }
+
+        Instantiate(objToSpawn, firePoint.transform.position, gameObject.transform.rotation);
 
         //Set timer
         yield return new WaitForSeconds(Timer); 
