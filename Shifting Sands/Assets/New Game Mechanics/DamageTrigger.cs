@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DamageTrigger : MonoBehaviour
 {
-    public int AttackDamage;
+    public FloatData AttackDamage;
 
     public void OnTriggerEnter(Collider other)
     {
