@@ -6,30 +6,31 @@ using UnityEngine.Events;
 
 public class Health : MonoBehaviour
 {
-    public int healthCollection = 100;
-    public int maxHealth = 100;
+    public FloatData healthCollection;
+    public FloatData damageHealth;
+    public FloatData attackDamage;
     public UnityEvent TakeDamageEvent;
     public UnityEvent DieEvent;
 
     private void Start()
     {
-        healthCollection = maxHealth;
+        healthCollection.value = healthCollection.maxValue;
     }
 
-    public void SubtractHealth(int newHealth)
+    public void SubtractHealth(FloatData attackDamage)
     {
-        healthCollection -= newHealth;
+        healthCollection.value -= damageHealth.value;
         TakeDamageEvent.Invoke();
 
-        if (healthCollection == 0)
+        if (healthCollection.value == 0)
         {
             Died();
         }
     }
-    
+
     public void GainHealth()
     {
-        healthCollection += 20;
+        healthCollection.value += 20;
     }
 
     public void Died()
