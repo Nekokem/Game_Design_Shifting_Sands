@@ -26,6 +26,7 @@
           </e>
           <e p="Health.cs" t="Include" />
           <e p="HealthBarManager.cs" t="Include" />
+          <e p="ImageCtrlr.cs" t="Include" />
           <e p="Interact.cs" t="Include" />
           <e p="InteractEvent.cs" t="Include" />
           <e p="MagicAttack.cs" t="Include" />
@@ -47,6 +48,7 @@
           <e p="Projectile.cs" t="Include" />
           <e p="QuitManager.cs" t="Include" />
           <e p="SceneChanger.cs" t="Include" />
+          <e p="UpdateEvent.cs" t="Include" />
         </e>
         <e p="scripts" t="Include">
           <e p="AIWithNavMesh.cs" t="Include" />
