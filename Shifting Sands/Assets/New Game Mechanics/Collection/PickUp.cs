@@ -20,7 +20,7 @@ public class PickUp : MonoBehaviour
     {
       inventory.AddGem();
     }
-    
+
     Destroy(gameObject);
   }
 }
