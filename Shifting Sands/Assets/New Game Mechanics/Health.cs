@@ -22,7 +22,7 @@ public class Health : MonoBehaviour
         healthCollection.value -= damageHealth.value;
         TakeDamageEvent.Invoke();
 
-        if (healthCollection.value == 0)
+        if (healthCollection.value <= 0)
         {
             Died();
         }
