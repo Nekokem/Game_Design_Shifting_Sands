@@ -9,8 +9,8 @@ public class Movement : MonoBehaviour
     private Vector3 position;
 
     public int speed = 10;
-    private float gravity = 10.0f;
-    public int jumpSpeed = 200;
+    private float gravity = 50.0f;
+    public int jumpSpeed = 50000;
     
     void Start()
     {
