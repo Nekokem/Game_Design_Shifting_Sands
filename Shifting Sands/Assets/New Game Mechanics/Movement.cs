@@ -10,7 +10,7 @@ public class Movement : MonoBehaviour
 
     public int speed = 10;
     private float gravity = 50.0f;
-    public int jumpSpeed = 50000;
+    public int jumpSpeed = 50;
     
     void Start()
     {
