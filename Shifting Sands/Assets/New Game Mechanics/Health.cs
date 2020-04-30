@@ -14,7 +14,7 @@ public class Health : MonoBehaviour
 
     private void Start()
     {
-        healthCollection.value = healthCollection.maxValue;
+        healthCollection.value = healthCollection.value;
     }
 
     public void SubtractHealth(FloatData attackDamage)
