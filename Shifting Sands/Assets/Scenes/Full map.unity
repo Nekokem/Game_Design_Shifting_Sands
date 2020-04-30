@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 885d4fff4e93a4af5b5349f190dd8804, type: 2}
 --- !u!65 &7770324
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -860,7 +860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1370,7 +1370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 8b2560cda69ac4e849e4b4488a644b6a, type: 2}
 --- !u!65 &106993803
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1742,7 +1742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1799,7 +1799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -2483,7 +2483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 5
+  healthCollection: 20
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -2651,7 +2651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &224348828
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3117,7 +3117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &262507240
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3175,7 +3175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 130c59d8c1ddd4b948d3813eb7b2fbc1, type: 2}
 --- !u!65 &264154291
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3233,7 +3233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 130c59d8c1ddd4b948d3813eb7b2fbc1, type: 2}
 --- !u!65 &271953199
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3984,7 +3984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -4475,7 +4475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &357359900
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4489,6 +4489,68 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.99999905, z: 0.3623889}
   m_Center: {x: 0, y: 0, z: 0.6410554}
+--- !u!1 &364855327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 364855328}
+  - component: {fileID: 364855330}
+  - component: {fileID: 364855329}
+  m_Layer: 0
+  m_Name: MagicBlastTrigger (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &364855328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364855327}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -73.950294, y: -0.7595751, z: -4.1683073}
+  m_LocalScale: {x: 4.274613, y: 1.8480637, z: 2.7563958}
+  m_Children: []
+  m_Father: {fileID: 374925922}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &364855329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364855327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dd18b50fd244ecf9609d0aa75a3aaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitbox: {fileID: 0}
+  Timer: 6
+  AttackingIsRunning: 0
+  CanAttack: 0
+  AttackCycleTimer: 10
+--- !u!135 &364855330
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364855327}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &365872444
 GameObject:
   m_ObjectHideFlags: 0
@@ -4604,7 +4666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 30
+  healthCollection: 100
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -4672,7 +4734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -4840,7 +4902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 130c59d8c1ddd4b948d3813eb7b2fbc1, type: 2}
 --- !u!65 &412347045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4990,7 +5052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 0}
+  AttackDamage: {fileID: 11400000, guid: 71cea74535bca42ecacdee7523562248, type: 2}
 --- !u!65 &426256435
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5435,7 +5497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 885d4fff4e93a4af5b5349f190dd8804, type: 2}
 --- !u!65 &458736249
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5827,7 +5889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 130c59d8c1ddd4b948d3813eb7b2fbc1, type: 2}
 --- !u!65 &490794492
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5885,7 +5947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 8b2560cda69ac4e849e4b4488a644b6a, type: 2}
 --- !u!65 &503205310
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6181,7 +6243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 130c59d8c1ddd4b948d3813eb7b2fbc1, type: 2}
 --- !u!65 &526482981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6219,7 +6281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 10
+  healthCollection: 20
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -6276,7 +6338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -11163,7 +11225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 885d4fff4e93a4af5b5349f190dd8804, type: 2}
 --- !u!65 &568389472
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11312,7 +11374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 0}
+  AttackDamage: {fileID: 11400000, guid: 71cea74535bca42ecacdee7523562248, type: 2}
 --- !u!65 &584982697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11370,7 +11432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 130c59d8c1ddd4b948d3813eb7b2fbc1, type: 2}
 --- !u!65 &589236208
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11485,7 +11547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -11518,6 +11580,68 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1 &628485224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 628485225}
+  - component: {fileID: 628485227}
+  - component: {fileID: 628485226}
+  m_Layer: 0
+  m_Name: MagicBlastTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &628485225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628485224}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 6.719384, y: 6.719384, z: 6.719384}
+  m_Children: []
+  m_Father: {fileID: 1113869027}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &628485226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628485224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dd18b50fd244ecf9609d0aa75a3aaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitbox: {fileID: 1504583086}
+  Timer: 6
+  AttackingIsRunning: 0
+  CanAttack: 0
+  AttackCycleTimer: 3
+--- !u!135 &628485227
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628485224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &628514415
 GameObject:
   m_ObjectHideFlags: 0
@@ -12124,7 +12248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 5
+  healthCollection: 20
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -12201,7 +12325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 130c59d8c1ddd4b948d3813eb7b2fbc1, type: 2}
 --- !u!65 &648790720
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12259,7 +12383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 130c59d8c1ddd4b948d3813eb7b2fbc1, type: 2}
 --- !u!65 &663782334
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12719,7 +12843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -13424,7 +13548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &736496210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13876,7 +14000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -14287,7 +14411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -14455,7 +14579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &783991247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15575,7 +15699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 10
+  healthCollection: 20
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -15652,7 +15776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 130c59d8c1ddd4b948d3813eb7b2fbc1, type: 2}
 --- !u!65 &848176087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20520,7 +20644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 092536c1fea414daea1fab9a279ea642, type: 2}
 --- !u!65 &852757278
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20578,7 +20702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &862056345
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20616,7 +20740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -21861,7 +21985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -21938,7 +22062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &969919169
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22403,7 +22527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &1004562020
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22807,7 +22931,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038557870}
   m_LocalRotation: {x: -0.2588191, y: 0.0000000033200886, z: -0.000000012390724, w: -0.9659258}
-  m_LocalPosition: {x: -421, y: -360.1, z: -1127.53}
+  m_LocalPosition: {x: -357, y: -361.1, z: -1725.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1587077973}
@@ -23190,7 +23314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 38b95e78aef61472384cfb75aa36baf1, type: 2}
 --- !u!65 &1059304759
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23228,7 +23352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -24313,7 +24437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -24610,7 +24734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 150
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -29643,7 +29767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &1132570943
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29681,7 +29805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -29793,7 +29917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 0}
+  AttackDamage: {fileID: 11400000, guid: 71cea74535bca42ecacdee7523562248, type: 2}
 --- !u!65 &1149594040
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29831,7 +29955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -30238,7 +30362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 71cea74535bca42ecacdee7523562248, type: 2}
 --- !u!1 &1183326567 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4378789624511442955, guid: 52f5ba377356e48c58333830f959d797,
@@ -30263,7 +30387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -30460,7 +30584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -30556,7 +30680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -30887,7 +31011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -31353,7 +31477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -31705,7 +31829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 10
+  healthCollection: 20
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -31762,7 +31886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -31839,7 +31963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &1326419865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32285,7 +32409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 130c59d8c1ddd4b948d3813eb7b2fbc1, type: 2}
 --- !u!65 &1344668192
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32439,7 +32563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 5
+  healthCollection: 20
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -33169,7 +33293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &1372853253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33826,7 +33950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &1406144325
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34281,7 +34405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 885d4fff4e93a4af5b5349f190dd8804, type: 2}
 --- !u!65 &1422956651
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34325,7 +34449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -34402,7 +34526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &1445621389
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35406,7 +35530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -35621,6 +35745,131 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1502155937}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1504583086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1504583087}
+  - component: {fileID: 1504583092}
+  - component: {fileID: 1504583091}
+  - component: {fileID: 1504583090}
+  - component: {fileID: 1504583089}
+  - component: {fileID: 1504583088}
+  m_Layer: 0
+  m_Name: MagicBlast
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1504583087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504583086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1113869027}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1504583088
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504583086}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2aa3a2cd6284d4651ba688df57533a92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1504583089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504583086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackDamage: {fileID: 11400000, guid: 012a03bf9e6a446b4b67678e97558dbe, type: 2}
+--- !u!135 &1504583090
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504583086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1504583091
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504583086}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1504583092
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504583086}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1508557627
 GameObject:
   m_ObjectHideFlags: 0
@@ -35736,7 +35985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -35793,7 +36042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -36204,7 +36453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -36420,7 +36669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -36932,7 +37181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 130c59d8c1ddd4b948d3813eb7b2fbc1, type: 2}
 --- !u!65 &1588308194
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36970,7 +37219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 500
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -37233,7 +37482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 130c59d8c1ddd4b948d3813eb7b2fbc1, type: 2}
 --- !u!65 &1614688507
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37291,7 +37540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 8b2560cda69ac4e849e4b4488a644b6a, type: 2}
 --- !u!65 &1616038905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37827,7 +38076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 10
+  healthCollection: 20
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -37884,7 +38133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -37941,7 +38190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -37998,7 +38247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -39464,7 +39713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 885d4fff4e93a4af5b5349f190dd8804, type: 2}
 --- !u!65 &1792683340
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39593,7 +39842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -39626,6 +39875,131 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1 &1801358806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1801358807}
+  - component: {fileID: 1801358812}
+  - component: {fileID: 1801358811}
+  - component: {fileID: 1801358810}
+  - component: {fileID: 1801358809}
+  - component: {fileID: 1801358808}
+  m_Layer: 0
+  m_Name: MagicBlast (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1801358807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801358806}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -73.950294, y: -0.7595751, z: -4.1683073}
+  m_LocalScale: {x: 0.6361614, y: 0.2750347, z: 0.41021553}
+  m_Children: []
+  m_Father: {fileID: 374925922}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1801358808
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801358806}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2aa3a2cd6284d4651ba688df57533a92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1801358809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801358806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackDamage: {fileID: 11400000, guid: 012a03bf9e6a446b4b67678e97558dbe, type: 2}
+--- !u!135 &1801358810
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801358806}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1801358811
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801358806}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1801358812
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801358806}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1803297895
 GameObject:
   m_ObjectHideFlags: 0
@@ -39832,7 +40206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 5
+  healthCollection: 20
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -40026,7 +40400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -40252,7 +40626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &1837977329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40411,7 +40785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 885d4fff4e93a4af5b5349f190dd8804, type: 2}
 --- !u!65 &1864110719
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40540,7 +40914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -40997,7 +41371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 130c59d8c1ddd4b948d3813eb7b2fbc1, type: 2}
 --- !u!65 &1908326428
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41217,7 +41591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 30
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -41294,7 +41668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 0}
+  AttackDamage: {fileID: 11400000, guid: 71cea74535bca42ecacdee7523562248, type: 2}
 --- !u!65 &1919810213
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41736,7 +42110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 10
+  healthCollection: 20
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -42063,7 +42437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 130c59d8c1ddd4b948d3813eb7b2fbc1, type: 2}
 --- !u!65 &1988641906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42104,7 +42478,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997514746}
   m_LocalRotation: {x: -0, y: 3.330669e-15, z: -0.000000012827822, w: -1}
-  m_LocalPosition: {x: -2739.9678, y: -962.0955, z: -1207.8777}
+  m_LocalPosition: {x: -2675.9678, y: -1261.9617, z: -1725.2609}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 509863079}
@@ -42519,7 +42893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -42705,7 +43079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -43095,7 +43469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: d5519c4b19501483f8578890d2d5fe1d, type: 2}
 --- !u!65 &2053421465
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43153,7 +43527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee0f59701644059b7f5d36ed3abcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: {fileID: 11400000, guid: 60028ad30fed14cd389a5729e361a971, type: 2}
+  AttackDamage: {fileID: 11400000, guid: 8b2560cda69ac4e849e4b4488a644b6a, type: 2}
 --- !u!65 &2071468490
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43197,7 +43571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -43254,7 +43628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5412de37d156149f99aa6b14dfbf124a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthCollection: 2
+  healthCollection: 10
   TakeDamageEvent:
     m_PersistentCalls:
       m_Calls:
@@ -43985,20 +44359,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5309579243352767997, guid: 997b66b1a2f924211b65c8fedd29e439,
+        type: 3}
+      propertyPath: jumpSpeed
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5667707486320019501, guid: 997b66b1a2f924211b65c8fedd29e439,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -421
+      value: -357
       objectReference: {fileID: 0}
     - target: {fileID: 5667707486320019501, guid: 997b66b1a2f924211b65c8fedd29e439,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -402
+      value: -403
       objectReference: {fileID: 0}
     - target: {fileID: 5667707486320019501, guid: 997b66b1a2f924211b65c8fedd29e439,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1079
+      value: -1677
       objectReference: {fileID: 0}
     - target: {fileID: 5667707486320019501, guid: 997b66b1a2f924211b65c8fedd29e439,
         type: 3}
@@ -44125,6 +44504,11 @@ PrefabInstance:
         type: 3}
       propertyPath: playerAttackDamage
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309579244110372952, guid: 997b66b1a2f924211b65c8fedd29e439,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 997b66b1a2f924211b65c8fedd29e439, type: 3}
