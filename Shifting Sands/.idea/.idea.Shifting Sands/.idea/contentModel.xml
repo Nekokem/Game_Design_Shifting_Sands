@@ -30,6 +30,7 @@
           <e p="Interact.cs" t="Include" />
           <e p="InteractEvent.cs" t="Include" />
           <e p="MagicAttack.cs" t="Include" />
+          <e p="MagicBlastAttack.cs" t="Include" />
           <e p="Match ID System" t="Include">
             <e p="IDBehavior.cs" t="Include" />
             <e p="MatchIdBehavior.cs" t="Include" />
